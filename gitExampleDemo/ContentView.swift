@@ -16,6 +16,7 @@ struct ContentView: View {
         
         VStack {
             TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text:$mm )
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             Text("Tarak Jaan!")
         }.padding()
     }
