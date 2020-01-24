@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var mm = ""
+    
     var body: some View {
-        Text("Tarak Jaan!")
+        
+        VStack {
+            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text:$mm )
+            Text("Tarak Jaan!")
+        }.padding()
     }
 }
 
